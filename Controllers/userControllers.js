@@ -4,11 +4,6 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const nodemailer = require("nodemailer");
 
-// let opt = null;
-
-// const verifyOtp = ()=>{
-
-// }
 
 const sendmail = async(req,res)=>{
  
